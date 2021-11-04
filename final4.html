@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--Dabin Chae 07/22/21 -->
+
+<html lang="en">
+    <head>
+        <link href = "styles.css"
+        rel = "stylesheet"
+        media = "screen">
+        <link href = "print.css"
+        rel = "stylesheet"
+        media = "print">
+        <link rel="icon" href="light.jpg" type="image/ico">
+        <title>
+            Latest Trends in Web Design :: Survey
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <header>
+        <h1>
+            Latest Trends in Web Design :: Survey
+        </h1>
+    </header>
+    <main>
+        <h2>
+            Survey for the Latest Trends on Web Design
+        </h2>
+        <h3>
+            What are your thoughts?
+        </h3>
+        <div id= "thoughts">
+            <img src=“thoughts.jpg” alt=“”>
+        </div>
+        <p>
+            Required fields are marked with an asterisk *
+        </p>
+        <form method = "post"
+        action = "placeholder.php">
+
+        <label for="myFName"> First Name:</label>
+        <input type="text" name="myFName" 
+            id="myFName" required="required">
+
+        <label for="myLName"> Last Name:</label>
+        <input type="text" name="myLName" 
+            id="myLName" required="required">
+
+        <label for="myDate">Date:</label>
+        <input type="date" name="myDate"
+            id="myDate">
+
+        <label for="myRating">* Rating for Parallax Scrolling(1 &mdash; 10)</label>
+        <input type = "range" name = "myRating" id="myRating" min="1" max="10">
+
+        <label for="my1Rating">* Rating for Collage Art(1 &mdash; 10)</label>
+        <input type = "range" name = "my1Rating" id="my1Rating" min="1" max="10">
+
+        <label for="my2Rating">* Rating for Multimedia Experiences(1 &mdash; 10)</label>
+        <input type = "range" name = "my2Rating" id="my2Rating" min="1" max="10">
+
+        <label for="my3Rating">* Rating for Gaussian Blur(1 &mdash; 10)</label>
+        <input type = "range" name = "my3Rating" id="my3Rating" min="1" max="10">
+
+        <label for="my4Rating">* Rating for Geometric Grids(1 &mdash; 10)</label>
+        <input type = "range" name = "my4Rating" id="my4Rating" min="1" max="10">
+        
+        <label for="myComments"> Comments:</label>
+        <textarea name="myComments" id="myComments"
+                rows="2" cols="30">
+        </textarea>
+
+        <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <nav>
+			<ul>
+			
+		<li><a href = "final1.html">Overview</a></li>
+		<li><a href = "final2.html">Description</a></li>
+		<li><a href = "final3.html">Credits</a></li>
+		<li><a href = "final4.html">Survey</a></li>
+			
+			</ul>
+		</nav>
+    </footer>
+    </body>
+</html>

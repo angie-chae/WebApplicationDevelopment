@@ -1,0 +1,126 @@
+/* Dabin Chae 07/24/21*/
+* { box-sizing: border-box; }
+
+body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:#FAF9F6; color:#6d7376}
+/* Assigning the font, background color, and text color of the body section of my html pages*/
+
+header {text-align: center;
+background-color:rgb(218, 194, 164)}
+/* header style*/
+
+form { display: flex; 
+    flex-flow: column nowrap; }    
+input, textarea { margin-bottom: .5em; }
+label { display: block;
+    margin-top: 20px; }
+input { display: block;
+    margin-bottom: 20px; }
+
+h1{margin-top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    letter-spacing: 0.1em;}
+
+h2, h3, h4 {color:#6da2c3}
+/* heading styles : h2, h3, h4*/
+
+nav { font-weight: bold; 
+    padding: 0;
+    font-size: 120%;
+    text-align: center}
+    /* navigation style*/
+
+nav a { text-decoration: none;}
+/* navigation style*/
+
+@media (min-width: 600px) {nav ul { list-style-type: none; margin: 0; padding-left: 0; font-size: 1.2em;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;}
+
+form{width: 60%; grid-gap: 1em; gap: 1em; grid-template-columns: 6em 1fr; grid-row: auto;}
+/* form style*/
+
+input[type="submit"] { grid-column: 2 / 3;
+width: 9em}
+
+nav li {border: 1px solid #000033;
+    border-bottom: none;}}
+
+@media (min-width: 1024px) {nav ul {flex-direction: column;} 
+
+nav {text-align: center; padding: 1em;}}
+
+table {border: 2px solid #3399CC; border-collapse: collapse;}
+/* table style*/
+
+td, th {padding: 0.5em; border: 2px solid #3399CC;}
+td {text-align: center;}
+
+tr:nth-of-type(odd) { background-color: #F5FAFC ; }
+
+main{padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    background-color: #FFFFFF;
+    overflow: auto}
+    /* main style*/
+
+    .web {color:#6a96b6;
+    font-weight: bold;}
+
+
+footer {background-color:#6da2c3;
+    background-image: linear-gradient(#FAF9F6, #6da2c3);
+background-repeat: no-repeat;}
+/* footer style*/
+
+#design{height: 300px;
+    background-image: url(design.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat}
+
+#credit{height: 400px;
+        width: 450px;
+        background-image: url(credits.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat}
+
+#parallax {height: 400px;
+    width: 450px;
+    background-image: url(parallax.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat}
+
+#collage {height: 400px;
+    width: 450px;
+    background-image: url(collage.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat}
+    
+#multi {height: 400px;
+    width: 450px;
+    background-image: url(multimedia.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat}
+
+#blur {height: 400px;
+    width: 450px;
+    background-image: url(blur.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat}
+
+#grid {height: 400px;
+    width: 450px;
+    background-image: url(geo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat}
+
+#thoughts {height: 400px;
+    width: 450px;
+    background-image: url(thoughts.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat}
